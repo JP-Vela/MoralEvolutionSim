@@ -56,6 +56,8 @@ def main():
 
     xpoints = np.array(x)
 
+    plt.style.use('dark_background')
+
     plt.plot(xpoints, P_Score, label="Psychopath")
     plt.plot(xpoints, E_Score, label="Egotistic")
     plt.plot(xpoints, G_Score, label="Generous")
